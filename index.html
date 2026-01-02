@@ -7,36 +7,53 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
       height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
+      background-color: #0f172a;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #4facfe, #00f2fe);
-      color: white;
+      color: #e5e7eb;
+    }
+
+    .card {
+      background-color: #020617;
+      padding: 40px;
+      border-radius: 14px;
       text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     }
-    .box {
-      background: rgba(0, 0, 0, 0.3);
-      padding: 40px 30px;
-      border-radius: 12px;
-    }
+
     h1 {
-      font-size: 48px;
       margin-bottom: 10px;
       letter-spacing: 2px;
     }
+
     p {
-      font-size: 18px;
-      opacity: 0.9;
+      margin-bottom: 25px;
+      color: #94a3b8;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #1d4ed8;
     }
   </style>
 </head>
 <body>
-  <div class="box">
+  <div class="card">
     <h1>COMING SOON</h1>
     <p>Website sedang dalam pengembangan</p>
+    <a href="testing.html" class="button">Go to Testing</a>
   </div>
 </body>
 </html>
